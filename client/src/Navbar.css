@@ -1,0 +1,80 @@
+.navbar{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+}
+
+.container img{
+    height: 25px;
+    width: 150px;
+       position: relative;  
+      right: 80px;   
+    
+}
+
+
+.container{
+    
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.profile_pic{
+    height: 20px;
+    width: 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+span{
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+
+img{
+    height: 25px;
+    width: 30px;
+    object-fit:fill;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+
+}
+
+.icon{
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+ /* .profile .options{
+ display: none;
+}
+
+ .profile .options:hover{
+    display: flex;
+    flex-direction: column;
+    position:absolute
+
+   } */
+     
+
+     span{
+        padding: 10px;
+        cursor: pointer;
+     }
+    
